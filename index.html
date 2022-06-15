@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <img src="https://cdn.pixabay.com/photo/2020/11/01/04/17/youtube-5702828_1280.png" class="logo" alt="">
+        <div class="search-box">
+            <input type="text" class="search-bar" placeholder="search">
+            <button class="search-btn"><img src="https://cdn-icons.flaticon.com/png/512/3128/premium/3128287.png?token=exp=1655270591~hmac=e4eaa227f15ce78d30777b0a64664ea2" alt=""></button>
+        </div>
+        <div class="user-options">
+            <img src="https://image.shutterstock.com/image-vector/logo-play-600w-338898482.jpg" class="icon" alt="">
+            <img src="https://cdn5.vectorstock.com/i/1000x1000/35/54/four-squares-logo-design-grid-can-be-used-vector-29433554.jpg" class="icon" alt="">
+            <img src="https://cdn-icons.flaticon.com/png/512/2058/premium/2058148.png?token=exp=1655271045~hmac=75548f2240e4fd60f86513c974c2e33a" class="icon" alt="">
+            <div class="user-dp">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="">
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="https://previews.123rf.com/images/donatas1205/donatas12051004/donatas1205100400054/6796480-home-icon.jpg" alt="">home</a>
+        <a href="#" class="links"><img src="https://png.pngtree.com/png-clipart/20190517/original/pngtree-golden-circle-compass-vector-png-image_3563766.jpg" alt="">explore</a>
+        <a href="#" class="links"><img src="https://image.shutterstock.com/image-vector/subscriptions-icon-isolated-on-white-600w-1803400006.jpg" alt="">subscription</a>
+        <hr class="seperator">
+        <div>
+
+            <p style="margin: 7px;font-weight: bold;">Mention the channel-id to get Channel details</p>
+            <p style="margin: 15px;font-weight: bold;">Channel Details:</p>
+            <div style="margin: 10px;">
+                YouTube Subscribers: <input type="text" name="" id="Subscriberid">
+            </div>
+            <div style="margin: 10px;">
+                YouTube Video Views: <input type="text" name="" id="views">
+            </div>
+            <div style="margin: 10px;">
+                YouTube Video Count: <input type="text" name="" id="videocount">
+            </div>
+
+        </div>
+
+
+
+        <div>
+            <button id="Play-list" style="margin: 10px;">Playlist:</button>
+            <input type="text" name="" id="PlayList" style="width: 220px;height: 80px;margin-left: 10px;">
+        </div>
+
+
+    </div>
+
+
+    <div class="filters">
+        <button class="filter-options active">All</button>
+        <button class="filter-options">Cricket</button>
+        <button class="filter-options">Politics</button>
+        <button class="filter-options">FootBall</button>
+        <button class="filter-options">Boxing</button>
+        <button class="filter-options">Music</button>
+        <button class="filter-options">Tollywood</button>
+        <button class="filter-options">Sadhguru</button>
+        <button class="filter-options">JavaScript</button>
+
+    </div>
+
+
+    <div class="video-container">
+        <div class="video">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" class="thumbnail" alt="">
+            <div class="content">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">Youtube clone</h4>
+                    <p class="channel-name">Random</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
